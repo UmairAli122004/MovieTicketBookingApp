@@ -1,4 +1,4 @@
-package JDBCJAVAproject;
+package MovieTicketBookingApp;
 
 import java.util.*;
 
@@ -29,7 +29,7 @@ class MovieName {
     }
 }
 
-public class MovieTicketBookingApp {
+public class MovieTicketBookingApplication {
     static Scanner sc = new Scanner(System.in);
     static int seat;
     private boolean movieSelected = false;
@@ -90,7 +90,7 @@ public class MovieTicketBookingApp {
     }
 
     public static void main(String[] args) {
-        MovieTicketBookingApp movieApp = new MovieTicketBookingApp();
+        MovieTicketBookingApplication movieApp = new MovieTicketBookingApplication();
         MovieName movieName = new MovieName();
         System.out.println("-----WELCOME TO THE MovieTicketBooking App-----");
         int choice;
@@ -130,6 +130,7 @@ public class MovieTicketBookingApp {
         } while (choice != 5);
     }
 }
+
 
 
 
